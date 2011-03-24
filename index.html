@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<script src="itunesdetect.js" type="text/javascript"></script>
+	<script>
+	window.onload = function (){
+		document.getElementById('dd').innerHTML = 'dfdf '+ _detect.itunesDetected();
+	}
+	</script>
+  </head>
+  <body>
+	<!--[if IE]>
+		<object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+	<![endif]-->
+	
+	
+	<h1 id="dd"></h1>
+  </body>
+</html>
