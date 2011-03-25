@@ -1,1 +1,10 @@
 Javascript решение, определяющее, установлен ли iTunes на компьютере клиента.
+
+Работает в:
+Windows Internet Explorer 6, 7, 8 версиях;
+Windows/Mac OS Google Chrome,
+Windows/Mac OS Mozila Firefox 3 >,
+Mac OS Opera.
+
+Не работает:
+Windows Opera
