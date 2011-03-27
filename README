@@ -1,10 +1,37 @@
+A Javascript tool detecting if iTunes is installed.
+Original methods from itunes.apple.com are used, and added support for iTunes detection in Opera for Windows. Code is cleanued up and optimised.
+
+Mini HOW-TO:
+Include itunesdetect.js on your page. Call the function _detect.iTunes(), returning true if iTunes is detected and false otherwise.
+
+For correct work in IE browsers, you must include the following object element on your page:
+<object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+
+
+Tested on:
+(Windows) Internet Explorer 6, 7, 8;
+(Windows/Mac OS) Google Chrome,
+(Windows/Mac OS) Mozila Firefox 3 >,
+(Windows/Mac OS) Opera.
+
+
+–––––––––––––––––––––––––––––––––
+
+
 Javascript решение, определяющее, установлен ли iTunes на компьютере клиента.
+Здесь заимствованы оригинальные способы проверки с itunes.apple.com, добавлена поддержка проверки в браузерах Opera на ОС Windows, почищен и оптимизирован код.
 
-Работает в:
-Windows Internet Explorer 6, 7, 8 версиях;
-Windows/Mac OS Google Chrome,
-Windows/Mac OS Mozila Firefox 3 >,
-Mac OS Opera.
 
-Не работает:
-Windows Opera
+Маленький HOW-TO:
+Подгружаем на страницу скрипт itunesdetect.js. Вызываем функцию _detect.iTunes(), которая возвращает true в случае, если iTunes установлен, и, соответственно – false, если не установлен.
+
+Для проверок в IE браузерах, на странице должен присутствовать элемент object
+<object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+
+
+
+Работоспособность проверена в:
+(Windows) Internet Explorer 6, 7, 8 версиях;
+(Windows/Mac OS) Google Chrome,
+(Windows/Mac OS) Mozila Firefox 3 >,
+(Windows/Mac OS) Opera.
